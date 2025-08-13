@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		858FF00C2E4BC7F30028072F /* GitHubUserSearchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FF0042E4BC7F30028072F /* GitHubUserSearchAppApp.swift */; };
+		858FF07A2E4C6B770028072F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858FF0792E4C6B770028072F /* Preview Assets.xcassets */; };
+		858FF0852E4C74260028072F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858FF0842E4C74260028072F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		858FEFCC2E4B62ED0028072F /* GitHubUserSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubUserSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858FF0042E4BC7F30028072F /* GitHubUserSearchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserSearchAppApp.swift; sourceTree = "<group>"; };
+		858FF0792E4C6B770028072F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		858FF0842E4C74260028072F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +41,10 @@
 		858FEFC32E4B62ED0028072F = {
 			isa = PBXGroup;
 			children = (
+				858FF0782E4C6B350028072F /* Preview Content */,
+				858FF0842E4C74260028072F /* Assets.xcassets */,
 				858FEFCE2E4B62ED0028072F /* GitHubUserSearchApp */,
+				858FF0042E4BC7F30028072F /* GitHubUserSearchAppApp.swift */,
 				858FEFCD2E4B62ED0028072F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +55,14 @@
 				858FEFCC2E4B62ED0028072F /* GitHubUserSearchApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		858FF0782E4C6B350028072F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				858FF0792E4C6B770028072F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858FF0852E4C74260028072F /* Assets.xcassets in Resources */,
+				858FF07A2E4C6B770028072F /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858FF00C2E4BC7F30028072F /* GitHubUserSearchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +272,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitHubUserSearchApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -266,6 +290,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mozammil.GitHubUserSearchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -277,9 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitHubUserSearchApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,6 +320,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mozammil.GitHubUserSearchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
